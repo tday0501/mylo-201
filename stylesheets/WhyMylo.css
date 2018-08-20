@@ -1,0 +1,230 @@
+/* Table of Content
+==================================================
+1. Misc
+2. Nav
+3. Yolo
+4. It simplifies managing
+5. Children, don't fight
+6. We're not a bank
+7. Bottom border
+
+==================================================
+*/
+/*	#Misc 	*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600);
+iframe.c1 {border:none; overflow:hidden; height:20px;width:50px; }
+
+.bottom_border {
+    margin: 30px 0 20px 0;
+		}
+.main_bg{
+    background: url('../Home_Page_slider/body_icons.png') center fixed no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.align_c{
+		text-align: center;}
+
+/* #Nav  */
+.sidenav {
+    height: 100%; 
+    width: 0;
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left:0;
+    background-color: rgba(255, 97, 76, .7);
+    overflow-x: hidden;
+    padding-top: 20px; 
+    transition: 0.3s; 
+}
+.nav span{ 
+    padding: 20px;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+.nav a {
+    padding: 25px;
+    font-size:16px;
+    text-decoration: none;
+    font-family:'Cambria', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+#open{
+    height: 100%; 
+    width: 2%;
+    position: fixed; 
+    z-index: 1; 
+    bottom: 0; 
+    left:9%;    
+}
+#close{
+    height: 100%; 
+    width: 35%;
+    position: fixed; 
+    z-index: 1; 
+    bottom: 0; 
+    left:12%;
+}
+.nav a:hover {
+    background-color: rgb(255, 97, 76);
+}
+.logo_m {
+    padding: 20px;
+    transition: 0.3s;
+    text-align: center;
+}
+   
+/* Yolo */
+.logo_align{
+    text-align: center;
+    padding: 30px 0 20px 0;
+	}
+.welcome_font{
+    font-size:48px;
+    color:#4A4A4A;
+    font-family: 'Cambria', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 100%;
+    text-align: center;
+}
+.Under_title{
+    font-size:26px;
+	color:#4A4A4A;
+    font-family: 'american typewriter', sans-serif;
+	font-weight: normal;
+    padding: 30px;
+    text-align: center;
+    margin-left:12%; 
+    width: 75%;
+    line-height: 35px;
+    position: relative;
+    top: 80px
+	}
+.supply{
+    position: relative;
+    bottom: 220px;
+    margin-bottom: -220px;  
+}
+
+/* It simplifies managing */
+
+.Under_title2{
+    font-size:26px;
+	color:#4A4A4A;
+    font-family: 'american typewriter', sans-serif;
+	font-weight: normal;
+    padding: 30px;
+    text-align: center;
+    margin-left:12%; 
+    width: 75%;
+    line-height: 35px;
+    position: relative;
+    top: 30px
+}
+.browser{
+    position: relative;
+    top: 30px;
+    margin-bottom: 60px;
+}
+
+/* Children don't fight */
+
+.child{
+    position: relative;
+    top: 10px;
+    margin-bottom: 60px;
+}
+
+/* Cloud */
+.welcome_font3{
+    font-size:48px;
+    color:#4A4A4A;
+    font-family: 'Cambria', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.Under_title3{
+    font-size:26px;
+	color:#4A4A4A;
+    font-family: 'american typewriter', sans-serif;
+	font-weight: normal;
+    padding: 20px;
+    text-align: center;
+    margin-left:12%; 
+    width: 75%;
+    line-height: 35px;
+    position: relative;
+    margin-bottom: -120px
+}
+
+/*  We're not a bank */
+
+.Under_title4{
+    font-size:26px;
+	color:#4A4A4A;
+    font-family: 'american typewriter', sans-serif;
+	font-weight: normal;
+    padding: 20px;
+    text-align: center;
+    margin-left:12%; 
+    width: 75%;
+    line-height: 35px;
+    position: relative;
+    top: 40px
+}
+.bank{
+    position: relative;
+    top: 30px;
+    right: 20px;
+    margin-bottom: 26px
+}
+
+/* Bottom border */
+
+.bg_color1{
+    background-color:#efefef;
+    padding-bottom: 10px;
+}
+.font{
+    color:#808080;
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: right;
+}
+.font ul li {
+    position: relative;
+    display: inline;
+   
+}
+.font ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    position: relative;
+    top: 15px;  
+    
+}
+.font ul li a:hover {
+    color: rgb(255, 97, 76)
+}
+
+
+
+	
+
+
+
+

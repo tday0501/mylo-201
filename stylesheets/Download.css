@@ -1,0 +1,163 @@
+/* Table of Content
+==================================================
+	#Misc
+    #Nav
+    #Why can't we be friends?
+	#Welcome to Mylo
+
+==================================================
+*/
+/*	#Misc 	*/
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600);
+	iframe.c1 {border:none; overflow:hidden; height:20px;width:50px; }
+
+/* #Nav  */
+.sidenav {
+    height: 100%; 
+    width: 0;
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left:0;
+    background-color: rgba(255, 97, 76, .7);
+    overflow-x: hidden;
+    padding-top: 20px; 
+    transition: 0.3s; 
+}
+.nav span{ 
+    padding: 20px;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+.nav a {
+    padding: 25px;
+    font-size:16px;
+    text-decoration: none;
+    font-family:'Cambria', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+#open{
+    height: 100%; 
+    width: 2%;
+    position: fixed; 
+    z-index: 1; 
+    bottom: 0; 
+    left:9%;    
+}
+#close{
+    height: 100%; 
+    width: 32%;
+    position: fixed; 
+    z-index: 1; 
+    bottom: 0; 
+    left:12%;
+}
+.nav a:hover {
+    background-color: rgb(255, 97, 76);
+}
+.logo_m {
+    padding: 20px;
+    transition: 0.3s;
+    text-align: center;
+}
+   
+/* #Wecome to Mylo */
+.bottom_border {
+    margin: 30px 0 20px 0;
+		}
+.main_bg{
+    background: url('../Home_Page_slider/body_icons.png')   center fixed no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.logo_align{
+    text-align: center;
+}
+.welcome_font{
+    font-size:60px;
+    color:#4A4A4A;
+    font-family: 'Cambria', sans-serif;
+    font-weight: bold;
+    padding: 10px 0 15px 0;
+    line-height: 100%;
+    text-align: center;
+}
+.Under_title{
+    font-size:20px;
+    color:#9aa1a9;
+    font-family: 'american typewriter', sans-serif;
+    font-weight: normal;
+    padding: 20px 0 40px 0;
+    text-align: center;
+    margin-left:12%; 
+    width: 75%;
+    line-height: 30px;
+}
+.submit_btn2 a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 17px 35px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(255, 97, 76); 
+    opacity: 1.0;
+    margin: 15px;
+    filter: alpha(opacity=100);
+}
+.submit_btn2:hover a{
+    background-color:rgba(255, 97, 76, .7);
+    filter: alpha(opacity=80);
+}	
+.align_c{
+    text-align: center;}
+
+.box_img_s img{
+	max-width: 100% !important;	
+    text-align: right;
+    margin-bottom: -6px
+}
+
+/* Bottom border */
+
+.bg_color1{
+    background-color:#efefef;
+    padding-bottom: 10px;
+}
+.font{
+    color:#808080;
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: right;
+}
+.font ul li {
+    position: relative;
+    display: inline;
+   
+}
+.font ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    position: relative;
+    top: 15px;  
+    
+}
+.font ul li a:hover {
+    color: rgb(255, 97, 76)
+}
+
+
+
+
